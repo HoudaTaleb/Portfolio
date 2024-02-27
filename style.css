@@ -342,11 +342,12 @@ i {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-block: 45px 45px;
+    padding-block: 20px 20px;
     padding-inline: 35px;
     border: 2px solid #fff;
     background: transparent;
     box-shadow: 1px 8px 10px 2px var(--first-shadow);
+    width: 500px;
 }
 .about-me *{
     -webkit-box-sizing : border-box;
@@ -453,7 +454,18 @@ i {
     animation-delay: 0.1s;
     width: 80%;
 }
-
+.skill-per.agiles{
+    animation-delay: 0.1s;
+    width: 80%;
+}
+.skill-per.concp{
+    animation-delay: 0.1s;
+    width: 80%;
+}
+.skill-per.bdd{
+    animation-delay: 0.1s;
+    width: 75%;
+}
 @keyframes progress{
     0% {
         width: 0;
