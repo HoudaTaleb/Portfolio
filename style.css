@@ -442,9 +442,9 @@ i {
     animation-delay: 0.1s;
     width: 70%;
 }
-.skill-per.python{
+.skill-per.figma{
     animation-delay: 0.1s;
-    width: 70%;
+    width: 90%;
 }
 .skill-per.php{
     animation-delay: 0.1s;
@@ -464,7 +464,7 @@ i {
 }
 .skill-per.bdd{
     animation-delay: 0.1s;
-    width: 75%;
+    width: 70%;
 }
 @keyframes progress{
     0% {
