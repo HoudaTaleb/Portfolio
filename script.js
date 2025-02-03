@@ -12,7 +12,7 @@ function myMenuFunction(){
 const body = document.querySelector("body"),
     toggleSwitch = document.getElementById("toogle-switch");
 
-toggleSwitch.addEventListener("click", ()=>{
+toggleSwitch.addEventListener("click", ()=>{ 
     body.classList.toggle("dark");
 });
 
