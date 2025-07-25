@@ -21,9 +21,9 @@ var typingEffect = new Typed(".typedText", {
     strings: ["Designer", "Coder", "Developer"],
 
     loop: true,
-    tyoeSpeed: 100,
-    backSpeed: 80,
-    backDelay: 2000,
+    tyoeSpeed: 200,
+    backSpeed: 100,
+    backDelay: 3000,
 })
 
 /*-----Scroll animation-------*/

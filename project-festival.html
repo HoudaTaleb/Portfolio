@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Festival des Cultures Urbaines</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+   * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.site-header {
+  background: rgb(71, 151, 255);
+  padding: 20px 0;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.site-header .logo {
+  color: #fff;
+  font-weight: 800;
+  font-size: 26px;
+  text-align: center;
+}
+
+/* Layout */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.project-section {
+  padding: 60px 0;
+}
+.project-section.alt-bg {
+  background-color: #f0f4ff;
+}
+
+/* Titles & Text */
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: rgb(71, 151, 255);
+}
+.project-section p {
+  font-size: 17px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Grid Gallery */
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.image-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.image-card img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-card:hover {
+  transform: translateY(-5px);
+}
+
+.caption {
+  padding: 12px 16px;
+  font-size: 14px;
+  color: #777;
+  text-align: center;
+}
+.figma-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  background-color: rgb(71, 151, 255);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.figma-link:hover {
+  background-color: rgb(71, 151, 255);
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+  .site-header .logo {
+    font-size: 20px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">NOUR — Portfolio</h1>
+      <a href="index.html" class="btn">← Back to Portfolio</a>
+    </div>
+  </header>
+
+  <main class="project-wrapper">
+    <!-- INTRO -->
+    <section class="project-section">
+      <div class="container">
+        <h2>Festival des Cultures Urbaines</h2>
+        <p>
+          This fictional web project promotes an urban culture festival. It features vibrant visual identity, events highlights, and an engaging UI design inspired by street art and modern aesthetics.
+        </p>
+      </div>
+    </section>
+
+    <!-- MOODBOARD + LOGO -->
+    <section class="project-section alt-bg">
+      <div class="container">
+        <h2>Moodboard & Logo Concept</h2>
+        <p>
+          I created a visual direction based on vibrant colors, graffiti style, and modern typography to reflect the energy of urban culture. The logo was inspired by bold lettering and dynamic forms.
+        <a class="figma-link" href="https://www.figma.com/proto/bAy6DkiiALT9nQ6cCREy7h/Festivale-des-cultures-urbaines?page-id=1%3A4&node-id=122-3&viewport=484%2C161%2C0.08&t=VTSVt53sO2eOGSrl-1&scaling=scale-down-width&content-scaling=fixed&starting-point-node-id=165%3A2" target="_blank">
+  👉 View Prototype on Figma
+</a>
+
+        </p>
+
+        <div class="image-grid">
+          <div class="image-card">
+            <img src="festival-moodboard.png" alt="Moodboard" />
+            <p class="caption">Moodboard Overview</p>
+          </div>
+          <div class="image-card">
+            <img src="festival-logo.png" alt="Logo Concept" />
+            <p class="caption">Logo Draft</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MOCKUPS -->
+    <section class="project-section">
+      <div class="container">
+        <h2>UI Mockups & Screens</h2>
+        <p>
+          These screens were designed in Figma to be clear, accessible, and mobile-friendly. They include homepage layout, program section, and mobile view of the site.
+        </p>
+
+        <div class="image-grid">
+          <div class="image-card">
+            <img src="festival1.png" alt="Homepage design" />
+            <p class="caption">Home page</p>
+          </div>
+          <div class="image-card">
+            <img src="festival2.png" alt="Event section" />
+            <p class="caption">Event Page</p>
+          </div>
+          <div class="image-card">
+            <img src="festival3.png" alt="Mobile screen" />
+            <p class="caption">Artist details</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
